@@ -2,4 +2,6 @@ language: php
 
 php: 
   - 7.1.0
-script: ./vendor/phpunit/phpunit/phpunit
+script:
+ - pwd 
+ - ./vendor/phpunit/phpunit/phpunit
