@@ -4,4 +4,3 @@ php:
   - 7.1.0
 script:
  - pwd 
- - ./vendor/phpunit/phpunit/phpunit
