@@ -7,6 +7,7 @@ before_script:
  - php artisan key:
  - cp .env.travis .env
  - composer self-update
-script:
+ - composer install --no-interaction
+ script:
  - pwd 
  - ./vendor/phpunit/phpunit/phpunit
