@@ -1,4 +1,6 @@
 language: php
+git:
+  quiet: true
 
 php: 
   - 7.1.8
